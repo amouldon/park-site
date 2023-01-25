@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Sofia+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgba(0, 100, 0, 0.587);
+    font-family: 'Sofia Sans', sans-serif;
+    margin:0px
+}
+
+#brand:hover {
+    color: darkgreen;
+}
+
+.home-img {
+    border-width: 5px;
+    height:35vh;
+    
+}
+
+.card-header {
+    background-color:cadetblue;
+}
+
+.home {
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.525);
+    border-radius: 10px;
+    border-width: 7px;
+    background-color: rgba(0, 0, 0, 0.533);
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color:white;
+}
+
+.hidden {
+    display:none !important;
+}
+
+.bg-opacity {
+    padding:20px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+
+.width35 {
+    width:35% !important;
+}
+
+.gallery {
+    opacity: 80%;
+}
+
+.gallery:hover {
+    opacity:100%;
+}
+
+.lg-text {
+    font-size: large;
+}
+
+.width-wildlife {
+    width:25vw;
+}
+
+.light-border {
+    background-color: rgba(255, 228, 196, 0.524);
+    border-radius: 6px;
+    padding:5px;
+}
+
+.width40 {
+    width:40%;
+}
